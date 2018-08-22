@@ -6,5 +6,14 @@ $(document).ready(function()
 		play: 5000,
 		pagination: false
 	});
+
+	var typed = new Typed(".typed", 
+	{
+		strings: ["Software Engineer", "Student", "Web Developer", "Veteran"],
+		typeSpeed: 70,
+		loop: true,
+		startDelay: 1000,
+		showCursor: false
+	});
 });
 
