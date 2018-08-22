@@ -87,7 +87,7 @@ body
 }
 
 .skillsSection {
-	background-color: #02B7AE;
+	background-color: #004BDC;
 	color: #FFFFFF;
 }
 
@@ -115,7 +115,7 @@ body
 
 .chart .percent
 {
-	color: #000;
+	color: #02b7ae;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;

@@ -51,7 +51,7 @@ $(document).ready(function()
 			{
 		        easing: 'easeInOut',
 		        barColor: '#FFFFFF',
-		        trackColor: false,
+		        trackColor: '#0044C4',
 		        scaleColor: false,
 		        lineWidth: 4,
 		        size: 152,
@@ -62,6 +62,6 @@ $(document).ready(function()
 		    });
 		}
 	});
-	
+
 });
 
