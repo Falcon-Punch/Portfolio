@@ -80,14 +80,15 @@ body
 	max-width: 100%;
 }
 
-.skillsSection
+.face
 {
-	background-color: #12CBC4;
+	max-height: 30px;
+	max-width: 30px;
 }
 
 .skillsSection {
-	background-color: #e74c3c;
-	color: #fff;
+	background-color: #02B7AE;
+	color: #FFFFFF;
 }
 
 .skill
