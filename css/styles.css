@@ -61,3 +61,18 @@
 {
 	font-size: 23px;
 }
+
+.section
+{
+	padding: 100px 0;
+}
+
+.aboutImage
+{
+	max-width: 100%;
+}
+
+.skillsSection
+{
+	background-color: #12CBC4;
+}
