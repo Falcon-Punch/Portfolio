@@ -72,7 +72,7 @@ body
 
 .section
 {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .aboutImage
@@ -136,11 +136,47 @@ body
     font-size: 25px;
 }
 
+.filter a
+{
+	color: #A9A9A9;
+	border: 1px solid #000000;
+	padding: 10px 18px;
+	display: block;
+	text-decoration: none;
+}
+
+.filter li
+{
+	display: inline-block;
+	padding: 5px;
+}
+
+.filter .current
+{
+	background-color: #004BDC;
+	border-color: #A9A9A9;
+	color: #FFFFFF;
+}
+
+.filter
+{
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading
+{
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
 .contactIcons img
 {
 	max-height: 70px;
 	max-width: 70px;
-	padding: 14px 8px;
+	padding: 0 6px;
+	background-repeat: no-repeat;
 }
 
 .contactButton1:hover
