@@ -86,7 +86,9 @@ body
 	max-width: 30px;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection
+{
 	background-color: #004BDC;
 	color: #FFFFFF;
 }
@@ -115,7 +117,7 @@ body
 
 .chart .percent
 {
-	color: #02b7ae;
+	color: #02B7AE;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
@@ -124,4 +126,34 @@ body
 .chart .percent:after
 {
 	content: '%';
+}
+
+.chart .over
+{
+	color: #02B7AE;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.contactIcons img
+{
+	max-height: 70px;
+	max-width: 70px;
+	padding: 14px 8px;
+}
+
+.contactButton1:hover
+{
+	content: url('../images/icons/darkEmail.png');
+}
+
+.contactButton2:hover
+{
+	content: url('../images/icons/darkLinked.png');
+}
+
+.contactButton3:hover
+{
+	content: url('../images/icons/darkGithub.png');
 }

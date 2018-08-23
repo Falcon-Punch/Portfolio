@@ -53,7 +53,7 @@ $(document).ready(function()
 		        barColor: '#FFFFFF',
 		        trackColor: '#0044C4',
 		        scaleColor: false,
-		        lineWidth: 4,
+		        lineWidth: 5,
 		        size: 152,
 		        onStep: function(from, to, percent)
 		        {
