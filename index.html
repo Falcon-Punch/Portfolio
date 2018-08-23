@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Joe's Portfolio</title>
+	<title>Joe's projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,6 +60,31 @@
 	    <a href="#" class="prev"></a>
 	  </nav>
 	</div>
+
+	<nav id="navigation" class="navbar navbar-expand-lg">
+	  <a class="navbar-brand" href="#">Menu</a>
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#skills">Skills</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#projects">Projects</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contact Me</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
 
 	<div id="about" class="section">
 		<div class="container">
@@ -218,7 +243,7 @@
 		</div>
 	</div>
 
-	<div id="portfolio" class="section">
+	<div id="projects" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="heading">
@@ -227,7 +252,7 @@
 				<div class="filter">
 					<ul id="filters">
 						<li><a href="#" data-filter="*" class="current">All</a></li>
-						<li><a href="#" data-filter=".projects">Apps</a></li>
+						<li><a href="#" data-filter=".apps">Apps</a></li>
 						<li><a href="#" data-filter=".websites">Websites</a></li>
 						<li><a href="#" data-filter=".games">Games</a></li>
 					</ul>
@@ -237,9 +262,9 @@
 					<ul class="items">
 						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/musicSite-square.jpg">
+								<img src="images/projects/thumbnails/musicSite-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/musicSite.jpg" title="View image" class="openButton" data-fancybox data-caption="A music streaming website built from scratch using various languages and technologies.">
+										<a href="images/projects/musicSite.jpg" title="View image" class="openButton" data-fancybox data-caption="A music streaming website built from scratch using various languages and technologies.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -250,11 +275,11 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li class="projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/keyLogger-square.jpg">
+								<img src="images/projects/thumbnails/keyLogger-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/keyLogger.jpg" title="View image" class="openButton" data-fancybox data-caption="An advanced keylogger created in C++ (this is an image of the log file being emailed).">
+										<a href="images/projects/keyLogger.jpg" title="View image" class="openButton" data-fancybox data-caption="An advanced keylogger created in C++ (this is an image of the log file being emailed).">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -267,9 +292,9 @@
 						</li>
 						<li class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/ufoGame-square.jpg">
+								<img src="images/projects/thumbnails/ufoGame-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/ufoGame.jpg" title="View image" class="openButton" data-fancybox data-caption="A UFO 'flight simulation' game created with C# in Unity.">
+										<a href="images/projects/ufoGame.jpg" title="View image" class="openButton" data-fancybox data-caption="A UFO 'flight simulation' game created with C# in Unity.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -280,11 +305,11 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li class="projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/shell-square.jpg">
+								<img src="images/projects/thumbnails/shell-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/shell.jpg" title="View image" class="openButton" data-fancybox data-caption="A UNIX shell application created in C.">
+										<a href="images/projects/shell.jpg" title="View image" class="openButton" data-fancybox data-caption="A UNIX shell application created in C.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -297,9 +322,9 @@
 						</li>
 						<li class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/flappyGame-square.jpg">
+								<img src="images/projects/thumbnails/flappyGame-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/flappyGame.jpg" title="View image" class="openButton" data-fancybox data-caption="A four-day group final project creating a Flappy Bird game clone. Created with Java in Android Studio during a two-week Android crash course.">
+										<a href="images/projects/flappyGame.jpg" title="View image" class="openButton" data-fancybox data-caption="A four-day group final project creating a Flappy Bird game clone. Created with Java in Android Studio during a two-week Android crash course.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -312,9 +337,9 @@
 						</li>
 						<li class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/floodGame-square.jpg">
+								<img src="images/projects/thumbnails/floodGame-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/floodGame.jpg" title="View image" class="openButton" data-fancybox data-caption="Replication of the 'Flood-It' game, created with Java in Android Studio during a two-week Android crash course.">
+										<a href="images/projects/floodGame.jpg" title="View image" class="openButton" data-fancybox data-caption="Replication of the 'Flood-It' game, created with Java in Android Studio during a two-week Android crash course.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -325,11 +350,11 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li class="projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
 							<div class="item">
-								<img src="images/portfolio/thumbnails/courses-square.jpg">
+								<img src="images/projects/thumbnails/courses-square.jpg">
 									<div class="icons">
-										<a href="images/portfolio/courses.jpg" title="View image" class="openButton" data-fancybox data-caption="An app written in C++ that records grades from all classes and stores them into a text file, also has feature to calculate GPA.">
+										<a href="images/projects/courses.jpg" title="View image" class="openButton" data-fancybox data-caption="An app written in C++ that records grades from all classes and stores them into a text file, also has feature to calculate GPA.">
 											<i class="fa fa-search"></i>
 										</a>
 
@@ -363,6 +388,14 @@
 				</a>
 			</div>
 		</div>
+	</div>
+
+	<div class="copyrightSection">
+
+		<div class="col-md-12 text-center">
+			<p>&copy; Copyright Joseph Schell 2018</p>
+		</div>
+
 	</div>
 
 	<script src="js/jquery.superslides.js"></script>
