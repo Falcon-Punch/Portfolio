@@ -1,11 +1,4 @@
-$.preload( 'images/myPic.png',
-  'images/icons/email.png',
-  'images/icons/linked.png',
-  'images/icons/github.png',
-  'images/icons/darkEmail.png',
-  'images/icons/darkLinked.png',
-  'images/icons/darkGithub.png'
-);
+
 
 $(window).on("load", function()
 {
@@ -13,6 +6,26 @@ $(window).on("load", function()
 		{
 			$(".loader").fadeOut(750);
 		});
+
+	$(".items").isotope(
+	{
+		filter: '*',
+		animationOptions:
+		{
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	})
+
+	$.preload( 'images/myPic.png',
+	  'images/icons/email.png',
+	  'images/icons/linked.png',
+	  'images/icons/github.png',
+	  'images/icons/darkEmail.png',
+	  'images/icons/darkLinked.png',
+	  'images/icons/darkGithub.png'
+	);
 })
 
 $(document).ready(function() 
@@ -81,17 +94,6 @@ $(document).ready(function()
 	});
 
 	$("[data-fancybox]").fancybox();
-
-	$(".items").isotope(
-	{
-		filter: '.apps',
-		animationOptions:
-		{
-			duration: 1500,
-			easing: 'linear',
-			queue: false
-		}
-	})
 
 	$("#filters a").click(function()
 	{
