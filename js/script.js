@@ -1,22 +1,11 @@
-var images = new Array()
-
-function preload()
-{
-	for (i = 0; i < preload.arguments.length; i++)
-	{
-		images[i] = new Image()
-		images[i].src = preload.arguments[i]
-	}
-}
-preload(
-	"images/myPic.png",
-	"images/icons/email.png",
-	"images/icons/linked.png",
-	"images/icons/github.png",
-	"images/icons/darkEmail.png",
-	"images/icons/darkLinked.png",
-	"images/icons/darkGithub.png"
-)
+$.preload( 'images/myPic.png',
+  'images/icons/email.png',
+  'images/icons/linked.png',
+  'images/icons/github.png',
+  'images/icons/darkEmail.png',
+  'images/icons/darkLinked.png',
+  'images/icons/darkGithub.png'
+);
 
 $(window).on("load", function()
 {
