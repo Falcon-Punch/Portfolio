@@ -75,7 +75,7 @@ $(document).ready(function()
 
 	$(".items").isotope(
 	{
-		filter: '*',
+		filter: '.apps',
 		animationOptions:
 		{
 			duration: 1500,
