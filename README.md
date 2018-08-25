@@ -22,7 +22,7 @@ Click **[Here](https://falcon-punch.github.io/Portfolio/)**.
 
 ![ss3](https://user-images.githubusercontent.com/24645219/44569747-3ab4db00-a730-11e8-8f5a-bbb0814d3e01.jpg)
 
-![ss4](https://user-images.githubusercontent.com/24645219/44569749-3ab4db00-a730-11e8-910a-54bc7b40da25.jpg)
+![ss4](https://user-images.githubusercontent.com/24645219/44616478-7ff70c80-a805-11e8-84e1-d8779cd5a119.jpg)
 
 ![ss5](https://user-images.githubusercontent.com/24645219/44569910-be6ec780-a730-11e8-85af-92174871b34c.jpg)
 
